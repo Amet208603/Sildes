@@ -1,0 +1,128 @@
+*{
+    padding: none;
+    margin: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 34px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header__content-link{
+    display: flex;
+    gap: 34px;
+  transform: translateY(20px);
+}
+.header__blog{
+    background: #F25022;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: -45px;
+}
+.header__blog-link{
+    color: white;
+    font-family: sans-serif;
+    
+}
+.header__link{
+   color: #202020;
+   font-weight: 400;
+   font-size: 15px;
+}
+.header__link:hover{
+    border-bottom: 2px solid #202020;
+    transition: .10s;
+}
+.header__link-demo{
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    background: #2164E1;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: -10px;
+}
+.header__link-demo:hover{
+     background: #202020;
+     transition: .10s;
+}
+
+.header__content-cadrs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 247px;
+    
+}
+.header__content-cards-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.header__card-title{
+    width: 370px;
+    font-weight: 400;
+    font-size: 45px;
+    color: #202020;
+}
+.header__card-text{
+    width: 440px;
+    font-weight: 400;
+    font-size: 21px; 
+    color: #202020; 
+}
+.header__btn{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.header__btn-link{
+    background: #2164E1;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+}
+.header__btn-link:hover{
+    background: #18459a;
+    transition: .5s;
+}
+.header__btn-link2{
+    background: #30B467;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+}
+.header__btn-link2:hover{
+    background: #128943;
+    transition: .5s;
+}
+.header__cards-card-img{
+    width: 580px;
+    height: 366px;
+    z-index: -1;
+}
+.header__cards-card{
+    width: 200px;
+    height: 200px;
+    background: #F25022;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -250px;
+    margin-left: -80px;
+}
+.header__content-image{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Header End */
